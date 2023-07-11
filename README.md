@@ -4,7 +4,7 @@
     This application build a text editor that runs in the browser.The app will be a single-page application that meets the PWA criteria. 
     Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. 
     The application will also function offline.
-    
+
 ## Tables of content:
   * [Installation](#installation)
   * [Usage](#usage)
@@ -76,10 +76,20 @@ The following image shows the application's IndexedDB storage:
 ![Text-Editor](Assets/Images/03-idb-storage.png)
 
 ## ScreenShot
+1. The following animation demonstrates the application functionality:
+![Text-Editor](Assets/Images/screenShot-application-functionality.png)
 
+2. The following image shows the application's manifest.json file:
+![Text-Editor](Assets/Images/screenShot-manifest.png)
+
+3. The following image shows the application's registered service worker:
+![Text-Editor](Assets/Images/screenShot-serviceWorker.png)
+
+4. The following image shows the application's IndexedDB storage:
+![Text-Editor](Assets/Images/screenSHot-indexedDb.png)
 ## URL
 1. The URL of the deployed application in Heroku
-
+https://copy-editor-pwa-a3e285d0537f.herokuapp.com/
 
 2. The URL of the GitHub repository.
-  https://github.com/shruthisalimath/Social-webbing
+  https://github.com/shruthisalimath/Copy-Editor-PWA

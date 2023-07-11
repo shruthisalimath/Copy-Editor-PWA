@@ -26,7 +26,7 @@ export const putDb = async (content) =>
   // Open up the desired object store.
   const store = tx.objectStore('jate');
 
-  // Use the .add() method on the store and pass in the content.
+  // Use the .put() method on the store and pass in the content.
   const request = store.put({ id: 1, content: content });
 
   // Get confirmation of the request.
